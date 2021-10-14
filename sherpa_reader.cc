@@ -1,8 +1,3 @@
-/*
- purpose : made to be used with `h_read.cc` and `sig_fraction.cc` with the end goal of using pT ratios to determine the signal fraction in the higgs data. this macro has the role of creating the pT ratio histograms outside of the higgs range
- inputs : data file to be read, name of file to write histograms to
- outputs : a file with the name specified as an input that contains all of the pT histograms outside of the higgs mass range, separated into high and low pTs
- */
 
 // C++ standard library headers
 #include <iostream>
